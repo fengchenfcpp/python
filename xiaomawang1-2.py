@@ -1,7 +1,14 @@
 #!/usr/bin/python
 # Filename: xiaomawang1-2.py
-for i in range(1, 5):
-	print (i)
-	print ('这是第',i,'次, 我爱python')
+answer = 'yes'
+running = True
+while running:
+	guess = str(input('Print? : '))
+	if guess == answer:
+		print ('我爱python')
+		running = False # this causes the while loop to stop
+	elif guess != answer:
+		print ('需要输入yes')
+
 else:
-	print ('结束')
+    print ('结束')
