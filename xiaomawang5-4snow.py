@@ -8,3 +8,4 @@ c[3] = str(int(a[3])+int(b[3]))
 c[4] = b[4] + str(a[4])
 print(c)
 
+
