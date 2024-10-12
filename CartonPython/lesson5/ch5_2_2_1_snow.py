@@ -5,7 +5,7 @@ print("------字符串--------")
 for item in '我是你爸爸':
     print(item)
 
-numbers = [54188 ]
+numbers = [88 ]
 print("---------整数列表---------")
 for item in numbers:
     print(item)
