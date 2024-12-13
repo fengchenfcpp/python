@@ -1,9 +1,9 @@
 # coding=utf-8
-# Filename: ch5_3_2.py
+# Filename: ch5_4_for_fcpp.py
 
-i = 198; r = 0; s = 0; t = 0
+i = 100; r = 0; s = 0; t = 0
 
-while i < 2000:
+while i < 5000000:
     r = i // 100
     s = (i - r * 100) // 10
     t = i - r * 100 - s * 10
