@@ -3,7 +3,7 @@
 
 i = 0
 
-while i * i < 100099:
+while i * i < 1000:
     i += 1
     if i == 55:
         break
